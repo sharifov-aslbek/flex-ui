@@ -60,6 +60,15 @@ body {
    padding-top: 24px;
 }
 
+.mobile-menu-div{
+   display: flex;
+   justify-content: space-between;  
+   align-items: center;   
+}
+
+.mobile-menu-div .img {
+   display: none;
+}
 .head .menu .links {
    display: flex;
    align-items: center;
@@ -98,15 +107,18 @@ body {
    transition: 0.5s;
 }
 
-.head .fa-bars {
+.icon {
+   display: none;
+}
+
+.icon .fa-bars {
    margin-right: 10px;
    font-size: 20px;
    color: #22C55E;
    cursor: pointer;
-   display: none;
 }
 
-.head .bg-black {
+.bg-black {
    width: 100%;
    max-width: 100%;
    height: 100vh;
@@ -117,18 +129,18 @@ body {
    display: none;
 }
 
-.head .bg-black.active {
+.bg-black.active {
    display: block;
 }
 
-.head .bg-black .mobile-menu {
+.bg-black .mobile-menu {
    background-color: white;
   width: 80%;
   position: fixed;
   left: 0;
   top: 0;
   display: none;
-  z-index: 99;
+  z-index: 999;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
@@ -137,11 +149,11 @@ body {
   padding: 1rem; /
 }
 
-.head .bg-black .mobile-menu.active {
+.bg-black .mobile-menu.active {
    display: flex;
 }
 
-.head .bg-black .mobile-menu .logo {
+.bg-black .mobile-menu .logo {
    display: flex;
    width: 100%;
    max-width: 100%;
@@ -149,30 +161,30 @@ body {
    align-items: center;
 }
 
-.head .bg-black .mobile-menu .logo .fa-xmark {
+.bg-black .mobile-menu .logo .fa-xmark {
    font-size: 20px;
    cursor: pointer;
 }
 
-.head .bg-black .mobile-menu .menu-link .links {
+.bg-black .mobile-menu .menu-link .links {
    display: flex;
    flex-direction: column;
    gap: 20px;
 }
-.head .bg-black .mobile-menu .menu-link .links .link a {
+.bg-black .mobile-menu .menu-link .links .link a {
    color: #556987;
    font-size: 16px;
    font-weight: 500;
    cursor: pointer;
 }
 
-.head .bg-black .mobile-menu .actions-mobile .auth {
+.bg-black .mobile-menu .actions-mobile .auth {
    margin-top: 380px;
    display: flex;
    gap: 10px;
 }
 
-.head .bg-black .mobile-menu .actions-mobile .auth li button {
+.bg-black .mobile-menu .actions-mobile .auth li button {
    font-family: 'Poppins' , sans-serif;
    padding: 12px 15px;
 }
@@ -274,6 +286,7 @@ body {
    top: 660px;
    width: 100%;
    max-width: 100%;
+   z-index: 1;
    margin: 0 auto;
    background-image: url('../images/bg-partners.svg');
    background-position: center;
