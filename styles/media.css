@@ -1,0 +1,312 @@
+@media (max-width:1190px) {
+   .hero .container {
+      /* margin: 0px 20px; */
+      width: 100%;
+      max-width: 100%;
+      border-radius: 10px;
+      background-image: url('../images/bg-heromedia.jpg');
+   }
+
+   .partners {
+      top: 600px;
+   }
+
+   
+   .partners .container .images .img {
+      width: 120px;
+   }
+
+   .location .map .img {
+      width: 100%;
+      max-width: 95%;
+   }
+}
+
+@media (max-width:1025px) {
+   .about .container .bottom {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .about .container .top {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   
+   .about-3 .container {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .about-3 .container .right {
+      margin: 20px 0px;
+   }
+
+   .about-3 .container .right .img {
+      width: 100%;
+      max-width: 550px;
+   }
+
+   .about-3 .container .left p {
+      width: 100% !important;
+      max-width: 450px !important;
+   }
+
+
+   .about-2 .container {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+   }
+
+   .about-2 .container .left .img {
+      display: none;
+   }
+
+   .video-box .container .top {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+   }
+
+   .computer .container .img {
+      width: 100%;
+      max-width: 750px;
+   }
+
+
+}
+
+
+@media (max-width:900px) {
+   .partners {
+      background: #F7F8F9;
+      padding-bottom: 100px;
+      margin-top: 100px;
+   }
+   .partners .container .images {
+      flex-direction: column;
+      gap: 30px;
+   }
+
+   .features {
+      margin-top: 500px;
+   }
+
+   .foot .container .menu .links {
+      gap: 30px;
+   }
+}
+
+@media (max-width:850px) {
+   .idea .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .company-numbers .container .bottom {
+      flex-direction: column;
+      gap: 30px !important;
+   }
+
+   .foot .container .menu .links li a {
+      font-size: 16px;
+   }
+}
+
+@media (max-width:750px) {
+
+   .head .menu {
+      display: none;
+   }
+
+   .head .actions {
+      display: none;
+   }
+
+   .head .fa-bars {
+      display: block;
+   }
+
+   .hero .container .title {
+      width: 100%;
+      max-width: 550px;
+      font-size: 40px;
+      line-height: 50px;
+   }
+
+   .hero .container .subtitle {
+      width: 100%;
+      max-width: 600px;
+      font-size: 15px;
+      text-align: center;
+   }
+
+
+   .location .container .cards {
+      flex-direction: column;
+      align-items: center;
+   }
+
+}
+
+@media (max-width:650px) {
+   .hero .container {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   .hero .container .title {
+      width: 100%;
+      max-width: 450px;
+      font-size: 30px;
+      line-height: 35px;  
+   }
+
+    h2 {
+      width: 100% !important ;
+      max-width: 450px !important;
+      font-size: 27px !important;
+      line-height: 35px !important ;
+   }
+
+   .features .container .top .title {
+      margin: 20px auto;
+   }
+   
+   .hero .container .form-big {
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .hero .container .helper {
+      text-align: center;
+   }
+   
+   .partners {
+      top: 620px;
+   }
+
+   .partners .container h3 {
+      text-align: center;
+   }
+
+
+   .features .container .top .subtitle {
+      font-size: 16px;
+   }
+
+   p {
+      font-size: 15px !important;
+   }
+
+   .about .container .bottom .img img {
+      width: 100%;
+      max-width: 550px;
+   }
+
+   .about .container .bottom .cards .card .text h3 {
+      font-size: 18px;
+   }
+
+   .company-numbers .container .top h2 {
+      margin: 20px auto;
+   }
+
+   .video-box .container .top .img .image {
+      width: 100%;
+      max-width: 550px;
+   }
+
+   .computer .container h2 {
+      margin: 0px auto 40px !important;
+      text-align: center !important;
+   }
+
+   .location .container .top h2 {
+      margin: 16px auto ;
+   }
+
+   .foot .container .menu .links {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .foot .container .foot-text h3 {
+      font-size: 16px;
+   }
+}
+
+
+@media (max-width:450px) {
+   .idea .container .right .btn {
+      font-size: 16px !important;
+      padding: 12px 18px !important;
+   } 
+   
+   .idea .container .right .two-btn {
+      font-size: 16px !important;
+      padding: 12px 18px !important;
+   }
+
+   .company-numbers .container .bottom .card span {
+      font-size: 40px;
+   }
+
+   .video-box .container .top .text h2 {
+      font-size: 23px !important;
+   }
+
+   .video-box .container .top .text p {
+      line-height: 25px !important;
+   }
+
+   .location .map {
+      height: 600px;
+   }
+}
+
+
+@media (max-width:390px) {
+   .partners {
+      top: 740px;
+   }
+
+   .features .container .top .title {
+      font-size: 20px;
+      line-height: 30px;
+   }
+
+   .features .container .top .subtitle {
+      font-size: 14px;
+   }
+
+   .about .container .bottom .cards .card .text p {
+      font-size: 14px;
+   }
+
+   .idea .container .right .btn {
+      font-size: 13px !important;
+      padding: 8px 14px !important;
+   } 
+   
+   .idea .container .right .two-btn {
+      font-size: 13px !important;
+      padding: 8px 14px !important;
+   }
+
+   .computer .container .btns {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .computer .container .btns button {
+      width: 100% !important;
+      font-size: 13px !important;
+      padding: 8px 14px !important;
+      max-width: 100% !important;
+   }
+
+}
